@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nostalji Kutusu — 90'lar ve 2000'lerin dijital ruhunu yaşatan retro bir deneyim.">
+  <title>Nostalji Kutusu — Dijital Hatıralar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Nostalji Kutusu ana sayfa">
+      <span class="brand-mark">NK</span>
+      <span>Nostalji<br><strong>Kutusu</strong></span>
+    </a>
+    <nav aria-label="Ana navigasyon">
+      <a href="#koleksiyon">Koleksiyon</a>
+      <a href="#hikaye">Hikaye</a>
+      <a href="#tema">Tema</a>
+    </nav>
+    <button class="sound-toggle" id="soundToggle" aria-label="Ses efektlerini aç veya kapat"><span class="sound-icon">◒</span> SES <b>OFF</b></button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> 1996—2006 / ARŞİV AÇIK</p>
+        <h1>Geçmişin<br><em>gelecek</em> gibi<br>hissettirdiği yer.</h1>
+        <p class="hero-text">Kasetleri geri sar. Modemi bağla. Ekranın önüne geç ve dijital dünyanın en güzel başlangıçlarına yeniden göz at.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#koleksiyon">Arşive gir <span>↗</span></a>
+          <button class="text-button" id="randomMemory">Rastgele bir anı keşfet <span>↻</span></button>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Retro kaset illüstrasyonu">
+        <div class="sun"></div>
+        <div class="grid-floor"></div>
+        <div class="cassette">
+          <div class="cassette-label"><small>NOSTALJİ KUTUSU</small><strong>HATIRA MIX</strong><span>VOL. 01 — 90s / 00s</span></div>
+          <div class="reel reel-left"></div><div class="reel reel-right"></div>
+          <div class="tape-line"></div><i class="screw screw-a"></i><i class="screw screw-b"></i><i class="screw screw-c"></i><i class="screw screw-d"></i>
+        </div>
+        <span class="art-note note-one">PLAY</span><span class="art-note note-two">REW ◀◀</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Nostaljik kelimeler"><div>VHS KASET <i>✦</i> MSN MESSENGER <i>✦</i> DİAL-UP <i>✦</i> PIXEL ART <i>✦</i> POLAROID <i>✦</i> MP3 ÇALAR <i>✦</i></div></section>
+
+    <section class="collection section-wrap" id="koleksiyon">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> KUTU #001</p><h2>Dijital <em>hatıralar</em></h2></div><p class="section-intro">Bir zamanlar hayatımızın merkezinde olan küçük şeyler. Şimdi yeniden keşfedilmeyi bekliyorlar.</p></div>
+      <div class="memory-grid">
+        <article class="memory-card card-vhs"><div class="card-visual"><span class="visual-label">PLAY</span><div class="vhs-tape"><b>HOME VIDEO</b><small>SUMMER '99</small></div><span class="tracking">▮ ▮ ▮ ▮</span></div><div class="card-info"><span>01 / İZLE</span><h3>VHS Günlükleri</h3><p>Görüntüsü bozuk, anısı net.</p><a href="#" class="card-link" data-message="VHS oynatıcı hazırlanıyor...">Kaseti oynat <b>↗</b></a></div></article>
+        <article class="memory-card card-web"><div class="card-visual"><span class="browser-top"><i></i><i></i><i></i><b>myhomepage.html</b></span><div class="pixel-window"><strong>WELCOME<br>TO MY<br>WEBPAGE!</strong><span>★ ★ ★<br>BEST VIEWED<br>IN 800×600</span></div></div><div class="card-info"><span>02 / GEZ</span><h3>İnternetin ilk günleri</h3><p>Her sayfa kişisel, her GIF bir olay.</p><a href="#" class="card-link" data-message="Bağlantı kuruluyor...">Siteyi aç <b>↗</b></a></div></article>
+        <article class="memory-card card-music"><div class="card-visual"><div class="cd"><div class="cd-hole"></div></div><span class="equalizer">▂ ▅ ▃ ▇ ▂ ▆ ▄</span></div><div class="card-info"><span>03 / DİNLE</span><h3>Mixtape zamanı</h3><p>Şarkı listeleri, el yazısı notlar.</p><a href="#" class="card-link" data-message="Mixtape kasete sarılıyor...">Dinlemeye başla <b>↗</b></a></div></article>
+      </div>
+    </section>
+
+    <section class="story section-wrap" id="hikaye"><div class="story-number">02</div><div class="story-copy"><p class="eyebrow"><span></span> NEDEN BURADA?</p><h2>Teknoloji<br><em>yavaşken</em> güzeldi.</h2><p>Bildirimlerin olmadığı, fotoğraf çekmek için doğru anı beklediğimiz, internete bağlanırken sabrımızı test ettiğimiz zamanlar. Nostalji Kutusu, o analog ruhu bugünün dünyasına taşıyan seçilmiş bir dijital arşiv.</p><a class="button button-outline" href="#tema">Ruh halini seç <span>↓</span></a></div><div class="story-stamp">EST.<br><strong>1999</strong><br><small>ARCHIVE</small></div></section>
+
+    <section class="theme-section section-wrap" id="tema"><div class="section-heading"><div><p class="eyebrow"><span></span> GÖRÜNÜMÜ DEĞİŞTİR</p><h2>Bugün hangi<br><em>zamandasın?</em></h2></div></div><div class="theme-picker"><button class="theme-option active" data-theme="sunset"><span class="swatch swatch-sunset"></span><b>VHS Sunset</b><small>80s / 90s</small></button><button class="theme-option" data-theme="terminal"><span class="swatch swatch-terminal"></span><b>Green Terminal</b><small>2000 / online</small></button><button class="theme-option" data-theme="lavender"><span class="swatch swatch-lavender"></span><b>Pixel Dream</b><small>90s / arcade</small></button></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><span>© 2024 NOSTALJİ KUTUSU</span><span>Özenle, eski günlerin hatrına yapıldı <span class="heart">♥</span></span><span>TOP ↑</span></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
